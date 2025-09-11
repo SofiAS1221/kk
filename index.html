@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин косметики "Beauty Shop"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в магазин косметики "Beauty Shop"</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Наши товары</h2>
+            
+            <div class="product">
+                <img src="крем.jpg" alt="Тональный крем" width="200">
+                <h3>Увлажняющий крем для лица</h3>
+                <p>Цена: 1500 руб.</p>
+                <button>Добавить в корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="сыворотка.jpg" alt="Сыворотка" width="200">
+                <h3>Омолаживающая сыворотка</h3>
+                <p>Цена: 2500 руб.</p>
+                <button>Добавить в корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="помада.jpg" alt="Помада" width="200">
+                <h3>Матовые помады</h3>
+                <p>Цена: 800 руб.</p>
+                <button>Добавить в корзину</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О нашем магазине</h2>
+            <p>Мы предлагаем только качественную косметику от проверенных производителей.</p>
+            
+            <table>
+                <caption>Наши преимущества</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Магазин косметики "Beauty Shop" был создан для прекрасных девушек
+                             чтобы подчеркнуть их красоту!</th>
+                        <th scope="col">Beauty Shop, открылся год назад и уже завоевал доверие клиентов, так как в нашем магазине 
+                            представлена  только оригинальная продукция.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Качество</td>
+                        <td>Все товары сертифицированы</td>
+                    </tr>
+                    <tr>
+                        <td>Цены</td>
+                        <td>Доступные цены на всю продукцию</td>
+                    </tr>
+                    <tr>
+                        <td>Доставка</td>
+                        <td>Бесплатная доставка от 3000 руб.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacts">
+            <h2>Контактная информация</h2>
+            <form>
+                <fieldset>
+                    <legend>Оставьте заявку</legend>
+                    <div>
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit">Отправить</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Магазин косметики "Beauty Shop". Все права защищены.</p>
+        <audio controls>
+            <source src="Alex Lustig feat. Makk Mikkael - Better to Be Lonely.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+    </footer>
+</body>
+</html>
